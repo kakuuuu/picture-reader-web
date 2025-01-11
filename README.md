@@ -6,19 +6,23 @@
 
 `Picture Reader` is a Chrome/Edge browser extension that extracts all images from the current webpage and displays them in a unified interface. This extension provides features such as slideshow playback, image size filtering, and batch downloading, making it easier for users to browse and manage images on webpages.
 
+Supports most websites: Unsplash, Pexels, PIXIV, 18COMIC...
+
 ## Main Features
 
 - **Unified Browsing of Extracted Webpage Images**: Automatically extracts all images from the current webpage and displays them in a unified interface.
 - **Image Manipulation**: Supports zooming in, zooming out, and rotating images. Supports keyboard navigation, mouse wheel zooming, and dragging.
 - **Slideshow Playback**: Supports timed playback of images, allowing users to set the playback interval.
 - **Image Size Filtering**: Filters images based on user-defined size criteria, displaying only those that meet the criteria.
-- **Batch Downloading**: Supports batch downloading of images from the current image list, making it easy for users to save and manage images.
+- **Batch Downloading**: Supports batch downloading of images from the current image list, making it easy for users to save and manage images. (Some sites may have restrictions and may not be available for download)
 
 ## Usage Examples
 
 ![Example 1](./images/example1.jpg)
 
 ![Example 2](./images/example2.jpg)
+
+![Example 3](./images/example3.jpg)
 
 ## Usage Instructions
 
