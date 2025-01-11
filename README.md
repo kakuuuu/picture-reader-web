@@ -15,6 +15,7 @@ Supports most websites: Unsplash, Pexels, PIXIV, 18COMIC...
 - **Slideshow Playback**: Supports timed playback of images, allowing users to set the playback interval.
 - **Image Size Filtering**: Filters images based on user-defined size criteria, displaying only those that meet the criteria.
 - **Batch Downloading**: Supports batch downloading of images from the current image list, making it easy for users to save and manage images. (Some sites may have restrictions and may not be available for download)
+- **Mobile Browser Adaptation**: kiwi browser
 
 ## Usage Examples
 
@@ -23,6 +24,8 @@ Supports most websites: Unsplash, Pexels, PIXIV, 18COMIC...
 ![Example 2](./images/example2.jpg)
 
 ![Example 3](./images/example3.jpg)
+
+![Example 4](./images/example4.png)
 
 ## Usage Instructions
 
