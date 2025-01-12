@@ -2,6 +2,10 @@
 
 **English** | [中文](./README.zh-CN.md)
 
+## Release
+
+[version release](https://github.com/kakuuuu/picture-reader/releases)
+
 ## Project Introduction
 
 `Picture Reader` is a Chrome/Edge browser extension that extracts all images from the current webpage and displays them in a unified interface. This extension provides features such as slideshow playback, image size filtering, and batch downloading, making it easier for users to browse and manage images on webpages.
@@ -15,7 +19,7 @@ Supports most websites: Unsplash, Pexels, PIXIV, 18COMIC...
 - **Slideshow Playback**: Supports timed playback of images, allowing users to set the playback interval.
 - **Image Size Filtering**: Filters images based on user-defined size criteria, displaying only those that meet the criteria.
 - **Batch Downloading**: Supports batch downloading of images from the current image list, making it easy for users to save and manage images. (Some sites may have restrictions and may not be available for download)
-- **Mobile Browser Adaptation**: kiwi browser
+- **Mobile Adaptation**: Adaptation to mobile screens, adaptation to kiwi browser
 
 ## Usage Examples
 
