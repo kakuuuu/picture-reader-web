@@ -6,6 +6,8 @@
 
 [版本发布](https://github.com/kakuuuu/picture-reader/releases)
 
+Microsoft Edge 拓展商店 [here](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
+
 ## 项目介绍
 
 `Picture Reader` 是一个用于提取当前网页所有图片并在新的统一界面展示的 Chrome/Edge 浏览器插件。该插件提供了幻灯片式播放、图片尺寸过滤、批量下载等功能，使用户能够更方便地浏览和管理网页中的图片。

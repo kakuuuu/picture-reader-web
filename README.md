@@ -6,6 +6,8 @@
 
 [version release](https://github.com/kakuuuu/picture-reader/releases)
 
+Get it at the Microsoft Edge Store [here](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
+
 ## Project Introduction
 
 `Picture Reader` is a Chrome/Edge browser extension that extracts all images from the current webpage and displays them in a unified interface. This extension provides features such as slideshow playback, image size filtering, and batch downloading, making it easier for users to browse and manage images on webpages.
