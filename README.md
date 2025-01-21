@@ -6,6 +6,8 @@
 
 [version release](https://github.com/kakuuuu/picture-reader/releases)
 
+Get it at the Google Chrome Store [here](https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen)
+
 Get it at the Microsoft Edge Store [here](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
 
 ## Project Introduction

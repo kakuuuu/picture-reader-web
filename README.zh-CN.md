@@ -6,6 +6,8 @@
 
 [版本发布](https://github.com/kakuuuu/picture-reader/releases)
 
+Google Chrome 拓展商店 [here](https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen)
+
 Microsoft Edge 拓展商店 [here](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
 
 ## 项目介绍
