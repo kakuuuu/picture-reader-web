@@ -1,20 +1,38 @@
-# Picture Reader
+<p align="center">
+  <a href="https://github.com/kakuuuu/picture-reader">
+    <img src="./images/logo.svg" alt="Picture Reader - Unleash Read Experience" width="200">
+  </a>
+  <br>
+  <h1 align="center">Picture Reader</h1>
+  <p align="center">
+    <br> 中文 | <a href="README.md">English</a>
+   </p>
+  <p align="center">
+  <a href="https://github.com/kakuuuu/picture-reader/releases">
+    <img alt="Follow Us on Twitter" src="https://img.shields.io/github/v/release/kakuuuu/picture-reader" />
+  </a>
+  <a href="https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen">
+    <img alt="Follow Us on Twitter" src="https://img.shields.io/chrome-web-store/v/beljcmkgfgeegijofiokcoalfbappfen?style=flat&logo=chromewebstore&logoColor=white&color=%2334A853" />
+  </a>
+  <a href="https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh">
+    <img alt="Follow Us on Twitter" src="https://img.shields.io/chrome-web-store/v/beljcmkgfgeegijofiokcoalfbappfen?style=flat&label=Microsoft Edge Store&logoColor=white&color=%239254de" />
+  </a>
+  </p>
+</p>
 
-**中文** | [English](./README.md)
+## Getting Started
 
-## Release
+- 版本发布 [Release](https://github.com/kakuuuu/picture-reader/releases)
 
-[版本发布](https://github.com/kakuuuu/picture-reader/releases)
+- Google Chrome 拓展商店 [Chrome Extension](https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen)
 
-Google Chrome 拓展商店 [here](https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen)
-
-Microsoft Edge 拓展商店 [here](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
+- Microsoft Edge 拓展商店 [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
 
 ## 项目介绍
 
 `Picture Reader` 是一个用于提取当前网页所有图片并在新的统一界面展示的 Chrome/Edge 浏览器插件。该插件提供了幻灯片式播放、图片尺寸过滤、批量下载等功能，使用户能够更方便地浏览和管理网页中的图片。
 
-支持绝大部分网站 Unsplash、Pexels、 PIXIV、18COMIC...
+支持绝大部分图片站点 Unsplash、Pexels、 PIXIV、18COMIC...
 
 ## 主要功能
 

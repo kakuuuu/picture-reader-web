@@ -1,14 +1,32 @@
-# Picture Reader
+<p align="center">
+  <a href="https://github.com/kakuuuu/picture-reader">
+    <img src="./images/logo.svg" alt="Picture Reader - Unleash Read Experience" width="200">
+  </a>
+  <br>
+  <h1 align="center">Picture Reader</h1>
+  <p align="center">
+    <br> English | <a href="README.zh-CN.md">中文</a>
+   </p>
+  <p align="center">
+  <a href="https://github.com/kakuuuu/picture-reader/releases">
+    <img alt="Follow Us on Twitter" src="https://img.shields.io/github/v/release/kakuuuu/picture-reader" />
+  </a>
+  <a href="https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen">
+    <img alt="Follow Us on Twitter" src="https://img.shields.io/chrome-web-store/v/beljcmkgfgeegijofiokcoalfbappfen?style=flat&logo=chromewebstore&logoColor=white&color=%2334A853" />
+  </a>
+  <a href="https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh">
+    <img alt="Follow Us on Twitter" src="https://img.shields.io/chrome-web-store/v/beljcmkgfgeegijofiokcoalfbappfen?style=flat&label=Microsoft Edge Store&logoColor=white&color=%239254de" />
+  </a>
+  </p>
+</p>
 
-**English** | [中文](./README.zh-CN.md)
+## Getting Started
 
-## Release
+- Release Page Download [Release](https://github.com/kakuuuu/picture-reader/releases)
 
-[version release](https://github.com/kakuuuu/picture-reader/releases)
+- Get it at the Google Chrome Store [Chrome Extension](https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen)
 
-Get it at the Google Chrome Store [here](https://chromewebstore.google.com/detail/picture-reader/beljcmkgfgeegijofiokcoalfbappfen)
-
-Get it at the Microsoft Edge Store [here](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
+- Get it at the Microsoft Edge Store [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/picture-reader/ejbbhhcdffiocibipjepabjbpejplooh)
 
 ## Project Introduction
 
