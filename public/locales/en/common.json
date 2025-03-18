@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "title": "Feature-rich Picture Reader",
+    "description": "Supports multiple image formats with AI-powered analysis capabilities",
+    "button": "Get Started",
+    "addToBrowser": "Add to Browser",
+    "addToChrome": "Add to Chrome",
+    "addToEdge": "Add to Edge",
+    "pictureReader": "Picture Reader",
+    "tagline": "Extract Webpage Images | Image Manipulation | Slideshow Playback | Image Size Filtering | Batch Download | Auto Load",
+    "descriptionFull": "Picture Reader is a powerful browser extension that helps you extract, organize, and download images from any webpage. Experience seamless image management with our intuitive interface."
+  },
+  "features": {
+    "title": "Core Features",
+    "item1": "Multi-format Support",
+    "item2": "AI Analysis",
+    "item3": "Batch Processing",
+    "item4": "Cloud Sync",
+    "subtitle": "Powerful Features for Image Management",
+    "description": "Everything you need to efficiently handle images from any webpage",
+    "unifiedImageBrowsing": {
+      "title": "Unified Image Browsing",
+      "description": "Extract and view all images from any webpage in a clean, organized interface"
+    },
+    "imageManipulation": {
+      "title": "Image Manipulation",
+      "description": "Zoom, rotate, and navigate through images with intuitive controls"
+    },
+    "slideshowPlayback": {
+      "title": "Slideshow Playback",
+      "description": "Automatically play through images with customizable intervals"
+    },
+    "sizeFiltering": {
+      "title": "Size Filtering",
+      "description": "Filter images based on dimensions to find exactly what you need"
+    },
+    "batchDownload": {
+      "title": "Batch Download",
+      "description": "Download multiple images simultaneously with just one click"
+    },
+    "autoLoad": {
+      "title": "Auto-Load",
+      "description": "Automatically load images as you scroll through long webpages"
+    },
+    "items": {
+      "0": {
+        "title": "Unified Image Browsing",
+        "description": "Extract and view all images from any webpage in a clean, organized interface"
+      },
+      "1": {
+        "title": "Image Manipulation",
+        "description": "Zoom, rotate, and navigate through images with intuitive controls"
+      },
+      "2": {
+        "title": "Slideshow Playback",
+        "description": "Automatically play through images with customizable intervals"
+      },
+      "3": {
+        "title": "Size Filtering",
+        "description": "Filter images based on dimensions to find exactly what you need"
+      },
+      "4": {
+        "title": "Batch Download",
+        "description": "Download multiple images simultaneously with just one click"
+      },
+      "5": {
+        "title": "Auto-Load",
+        "description": "Automatically load images as you scroll through long webpages"
+      }
+    }
+  },
+  "demo": {
+    "title": "See Picture Reader in Action",
+    "description": "Experience our intuitive interface and powerful features",
+    "imageGalleryView": {
+      "title": "Image Gallery View",
+      "description": "Browse all images on a webpage in an organized grid layout"
+    },
+    "imageDetailsPanel": {
+      "title": "Image Details Panel",
+      "description": "View detailed information and controls for each image"
+    },
+    "batchDownloadInterface": {
+      "title": "Batch Download Interface",
+      "description": "Select and download multiple images simultaneously"
+    },
+    "filterAndSortOptions": {
+      "title": "Filter and Sort Options",
+      "description": "Powerful tools to find exactly the images you need"
+    },
+    "slides": {
+      "0": {
+        "title": "Image Gallery View",
+        "description": "Browse all images on a webpage in an organized grid layout"
+      },
+      "1": {
+        "title": "Image Details Panel",
+        "description": "View detailed information and controls for each image"
+      },
+      "2": {
+        "title": "Batch Download Interface",
+        "description": "Select and download multiple images simultaneously"
+      },
+      "3": {
+        "title": "Filter and Sort Options",
+        "description": "Powerful tools to find exactly the images you need"
+      }
+    }
+  },
+  "stats": {
+    "title": "Growing User Base",
+    "activeUsers": "Active Users",
+    "supportedWebsites": "Supported Websites",
+    "userRating": "User Rating",
+    "imagesProcessed": "Images Processed"
+  },
+  "footer": {
+    "title": "Your ultimate tool for web image management",
+    "quickLinks": "Quick Links",
+    "support": {
+      "title": "Support",
+      "documentation": "Documentation",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "copyright": "© 2025 Picture Reader. All rights reserved."
+  },
+  "navigation": {
+    "features": "Features",
+    "demo": "Demo",
+    "compatibility": "Compatibility",
+    "support": "Support"
+  },
+  "title": "Picture Reader",
+  "subtitle": "Extract Webpage Images | Image Manipulation | Slideshow Playback | Image Size Filtering | Batch Download | Auto Load",
+  "description": " Picture Reader is a powerful browser extension that helps you extract, organize, and download images from any webpage. Experience seamless image management with our intuitive interface.",
+  "buttons": {
+    "add_browser": "Add to Browser",
+    "add_chrome": "Add to Chrome",
+    "add_edge": "Add to Edge"
+  },
+  "supported_websites": {
+    "title": "Supported Websites"
+  }
+}
