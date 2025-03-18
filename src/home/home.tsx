@@ -43,6 +43,14 @@ const App: React.FC = () => {
     }
   }, []);
   const router = useRouter();
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -59,21 +67,40 @@ const App: React.FC = () => {
                 <a
                   href="#features"
                   className="text-gray-700 hover:text-indigo-600"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('features');
+                  }}
                 >
                   Features
                 </a>
                 <a
+                  href="#demo"
+                  className="text-gray-700 hover:text-indigo-600"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('demo');
+                  }}
+                >
+                  Demo
+                </a>
+                <a
                   href="#compatibility"
                   className="text-gray-700 hover:text-indigo-600"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('compatibility');
+                  }}
                 >
                   Compatibility
-                </a>
-                <a href="#demo" className="text-gray-700 hover:text-indigo-600">
-                  Demo
                 </a>
                 <a
                   href="#support"
                   className="text-gray-700 hover:text-indigo-600"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('support');
+                  }}
                 >
                   Support
                 </a>
@@ -103,16 +130,48 @@ const App: React.FC = () => {
       {isMenuOpen && (
         <div className="fixed inset-x-0 top-16 z-40 bg-white shadow-lg md:hidden">
           <div className="space-y-2 px-4 py-2">
-            <a href="#features" className="block py-2 text-gray-700">
+            <a
+              href="#features"
+              className="block py-2 text-gray-700"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('features');
+                setIsMenuOpen(false);
+              }}
+            >
               Features
             </a>
-            <a href="#compatibility" className="block py-2 text-gray-700">
+            <a
+              href="#compatibility"
+              className="block py-2 text-gray-700"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('compatibility');
+                setIsMenuOpen(false);
+              }}
+            >
               Compatibility
             </a>
-            <a href="#demo" className="block py-2 text-gray-700">
+            <a
+              href="#demo"
+              className="block py-2 text-gray-700"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('demo');
+                setIsMenuOpen(false);
+              }}
+            >
               Demo
             </a>
-            <a href="#support" className="block py-2 text-gray-700">
+            <a
+              href="#support"
+              className="block py-2 text-gray-700"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('support');
+                setIsMenuOpen(false);
+              }}
+            >
               Support
             </a>
           </div>
@@ -192,7 +251,7 @@ const App: React.FC = () => {
         </div>
       </div>
       {/* Features Section */}
-      <div className="bg-gray-50 py-24">
+      <div id="features" className="bg-gray-50 py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
@@ -258,7 +317,7 @@ const App: React.FC = () => {
         </div>
       </div>
       {/* Screenshot Showcase */}
-      <div className="bg-gray-50 py-24">
+      <div id="demo" className="bg-gray-50 py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-16 text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
@@ -321,7 +380,7 @@ const App: React.FC = () => {
         </div>
       </div>
       {/* Statistics Section */}
-      <div className="bg-white py-24">
+      <div id="compatibility" className="bg-white py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
             <div>
@@ -352,7 +411,7 @@ const App: React.FC = () => {
         </div>
       </div>
       {/* Supported Websites */}
-      <div className="bg-gray-50 py-24">
+      <div id="support" className="bg-gray-50 py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="mb-16 text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Supported Websites
