@@ -9,6 +9,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import { Meta } from '../layout/Meta';
+
 const App: React.FC = () => {
   const { t, i18n } = useTranslation(['common']);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +22,7 @@ const App: React.FC = () => {
       const option = {
         animation: false,
         title: {
-          text: 'Chart Title',
+          text: '',
           textStyle: {
             color: '#1a1a1a',
             fontSize: 16,
@@ -59,9 +61,16 @@ const App: React.FC = () => {
     i18n.changeLanguage(lng);
     router.push(router.pathname, router.asPath, { locale: lng });
   };
+  const AppConfig = {
+    title: t('title'),
+    description: t('description'),
+    locale: i18n?.language || 'zh-CN',
+    site_name: 'Picture Reader',
+  };
 
   return (
     <div className="min-h-screen bg-white">
+      <Meta title={AppConfig.title} description={AppConfig.description} />
       {/* Navigation */}
       <nav className="fixed inset-x-0 top-0 z-50 bg-white shadow-sm">
         <div className="mx-auto max-w-7xl px-4">
@@ -192,7 +201,7 @@ const App: React.FC = () => {
       <div className="relative min-h-[800px] bg-gradient-to-br from-indigo-50 via-white to-indigo-50">
         <div className="absolute inset-0">
           <img
-            src="https://public.readdy.ai/ai/img_res/284cfe4105610c2162df3281d026650b.jpg"
+            src={`${router.basePath}/assets/images/home-bg.jpg`}
             alt="Background Pattern"
             className="size-full object-cover opacity-50"
           />
@@ -247,11 +256,11 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="absolute -inset-4 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-500 opacity-10 blur-xl"></div>
+              <div className="absolute  -inset-4 rounded bg-gradient-to-r from-indigo-500 to-purple-500 opacity-10 blur-xl"></div>
               <img
-                src="https://public.readdy.ai/ai/img_res/93bb4f4e74c0506840a36adde7681a7c.jpg"
+                src={`${router.basePath}/assets/images/home-expample.png`}
                 alt="Picture Reader Interface"
-                className="relative w-full rounded-2xl shadow-2xl"
+                className="relative w-full rounded  shadow-2xl"
               />
             </div>
           </div>
@@ -386,7 +395,7 @@ const App: React.FC = () => {
               </h2>
               <div ref={chartRef} style={{ height: '400px' }}></div>
             </div>
-            <div className="grid grid-cols-2 gap-8">
+            <div className="z-10 grid grid-cols-2 gap-8 opacity-90">
               {[
                 { number: '100+', label: 'Active Users' },
                 { number: '100+', label: 'Supported Websites' },

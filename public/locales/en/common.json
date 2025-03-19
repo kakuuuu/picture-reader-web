@@ -90,20 +90,20 @@
     },
     "slides": {
       "0": {
-        "title": "Image Gallery View",
-        "description": "Browse all images on a webpage in an organized grid layout"
+        "title": "Filtering | Sorting | Auto-Load Options",
+        "description": "Powerful tool to find the exact image you need"
       },
       "1": {
-        "title": "Image Details Panel",
-        "description": "View detailed information and controls for each image"
+        "title": "Image gallery view",
+        "description": "Browse all images in a web page in a grid layout,"
       },
       "2": {
-        "title": "Batch Download Interface",
-        "description": "Select and download multiple images simultaneously"
+        "title": "Full Screen Mode",
+        "description": "View detailed information about each image, control options, slideshow timer, and batch downloads"
       },
       "3": {
-        "title": "Filter and Sort Options",
-        "description": "Powerful tools to find exactly the images you need"
+        "title": "Mobile Adaptation",
+        "description": "Perfect for displaying on cell phones as well as tablets"
       }
     }
   },
