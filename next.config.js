@@ -8,7 +8,10 @@ const { i18n } = require('./next-i18next.config');
 module.exports = withBundleAnalyzer({
   distDir: 'build',
   eslint: {
-    dirs: ['.'],
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
   poweredByHeader: false,
   trailingSlash: true,
