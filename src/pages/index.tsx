@@ -20,7 +20,6 @@ const App: React.FC = () => {
       const option = {
         animation: false,
         title: {
-          // text: t('chart.title'), TODO
           text: 'Chart Title',
           textStyle: {
             color: '#1a1a1a',
@@ -36,7 +35,7 @@ const App: React.FC = () => {
         },
         series: [
           {
-            data: [150, 230, 450, 800, 1200, 1800],
+            data: [0, 30, 100],
             type: 'line',
             smooth: true,
             color: '#6366f1',
@@ -107,16 +106,6 @@ const App: React.FC = () => {
                   {t('navigation.demo')}
                 </a>
                 <a
-                  href="#compatibility"
-                  className="text-gray-700 hover:text-indigo-600"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection('compatibility');
-                  }}
-                >
-                  {t('navigation.compatibility')}
-                </a>
-                <a
                   href="#support"
                   className="text-gray-700 hover:text-indigo-600"
                   onClick={(e) => {
@@ -163,7 +152,7 @@ const App: React.FC = () => {
             >
               {t('navigation.features')}
             </a>
-            <a
+            {/* <a
               href="#compatibility"
               className="block py-2 text-gray-700"
               onClick={(e) => {
@@ -173,7 +162,7 @@ const App: React.FC = () => {
               }}
             >
               {t('navigation.compatibility')}
-            </a>
+            </a> */}
             <a
               href="#demo"
               className="block py-2 text-gray-700"
@@ -251,10 +240,10 @@ const App: React.FC = () => {
                   <i className="fas fa-star mr-2 text-yellow-400"></i>
                   <span className="text-gray-600">4.9/5 Rating</span>
                 </div>
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <i className="fas fa-download mr-2 text-indigo-600"></i>
                   <span className="text-gray-600">50K+ Users</span>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="relative">
@@ -399,9 +388,9 @@ const App: React.FC = () => {
             </div>
             <div className="grid grid-cols-2 gap-8">
               {[
-                { number: '50K+', label: 'Active Users' },
+                { number: '100+', label: 'Active Users' },
                 { number: '100+', label: 'Supported Websites' },
-                { number: '4.8/5', label: 'User Rating' },
+                { number: '4.95/5', label: 'User Rating' },
                 { number: '1M+', label: 'Images Processed' },
               ].map((stat, index) => (
                 <div
@@ -426,25 +415,61 @@ const App: React.FC = () => {
           </h2>
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
             {[
-              'Unsplash',
-              'Pexels',
-              'PIXIV',
-              '500px',
-              'Behance',
-              'DeviantArt',
-              'Artstation',
-              'Pinterest',
+              {
+                name: 'Unsplash',
+                domain: 'unsplash.com',
+              },
+              {
+                name: 'Pexels',
+                domain: 'pexels.com',
+              },
+              {
+                name: 'PIXIV',
+                domain: 'pixiv.net',
+              },
+              {
+                name: 'Youtube',
+                domain: 'youtube.com',
+              },
+              {
+                name: 'Reddit',
+                domain: 'reddit.com',
+              },
+              {
+                name: 'Behance',
+                domain: 'behance.com',
+              },
+              {
+                name: 'DeviantArt',
+                domain: 'deviantart.com',
+              },
+              {
+                name: 'Artstation',
+                domain: 'artstation.com',
+              },
+              {
+                name: 'Pinterest',
+                domain: 'pinterest.com',
+              },
             ].map((site, index) => (
               <div
                 key={index}
                 className="rounded-lg bg-white p-6 text-center shadow"
               >
-                <img
-                  src={`https://readdy.ai/api/search-image?query=minimalist logo design for ${site} website with simple geometric shapes on white background professional clean&width=100&height=100&seq=${index + 3}&orientation=squarish`}
-                  alt={site}
-                  className="mx-auto mb-4 size-16"
-                />
-                <div className="font-medium text-gray-900">{site}</div>
+                <div>
+                  <a
+                    href={`https://${site.domain}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={`https://logo.clearbit.com/${site.domain}`}
+                      alt={site.name}
+                      className="mx-auto mb-4 size-16"
+                    />
+                    <div className="font-medium text-gray-900">{site.name}</div>
+                  </a>
+                </div>
               </div>
             ))}
           </div>
