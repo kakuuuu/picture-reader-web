@@ -1,7 +1,6 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "picture-reader-web",
   "version": "1.0.0",
-  "homepage": "https://kakuuuu.github.io/picture-reader",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

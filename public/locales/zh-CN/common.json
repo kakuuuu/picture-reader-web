@@ -6,9 +6,9 @@
     "addToBrowser": "添加到浏览器",
     "addToChrome": "添加到Chrome",
     "addToEdge": "添加到Edge",
-    "pictureReader": "图片阅读器",
+    "pictureReader": "Picture Reader",
     "tagline": "网页图片提取 | 图片处理 | 幻灯片播放 | 图片尺寸过滤 | 批量下载 | 自动加载",
-    "descriptionFull": "图片阅读器是一款强大的浏览器扩展，可帮助您从任何网页提取、整理和下载图片。通过我们直观的界面体验无缝的图片管理。"
+    "descriptionFull": "Picture Reader是一款强大的浏览器扩展，可帮助您从任何网页提取、整理和下载图片。通过我们直观的界面体验无缝的图片管理。"
   },
   "features": {
     "title": "核心功能",
@@ -44,33 +44,33 @@
     },
     "items": {
       "0": {
-        "title": "Unified Image Browsing",
-        "description": "Extract and view all images from any webpage in a clean, organized interface"
+        "title": "统一图片浏览",
+        "description": "以整洁有序的界面提取和查看网页中的所有图片"
       },
       "1": {
-        "title": "Image Manipulation",
-        "description": "Zoom, rotate, and navigate through images with intuitive controls"
+        "title": "图片处理",
+        "description": "使用直观的控制功能缩放、旋转和浏览图片"
       },
       "2": {
-        "title": "Slideshow Playback",
-        "description": "Automatically play through images with customizable intervals"
+        "title": "幻灯片播放",
+        "description": "以可自定义的间隔自动播放图片"
       },
       "3": {
-        "title": "Size Filtering",
-        "description": "Filter images based on dimensions to find exactly what you need"
+        "title": "尺寸过滤",
+        "description": "根据尺寸过滤图片，精准找到所需内容"
       },
       "4": {
-        "title": "Batch Download",
-        "description": "Download multiple images simultaneously with just one click"
+        "title": "批量下载",
+        "description": "一键同时下载多张图片"
       },
       "5": {
-        "title": "Auto-Load",
-        "description": "Automatically load images as you scroll through long webpages"
+        "title": "自动加载",
+        "description": "在浏览长网页时自动加载图片"
       }
     }
   },
   "demo": {
-    "title": "查看图片阅读器实际效果",
+    "title": "查看Picture Reader实际效果",
     "description": "体验我们直观的界面和强大的功能",
     "imageGalleryView": {
       "title": "图片画廊视图",
@@ -90,20 +90,20 @@
     },
     "slides": {
       "0": {
-        "title": "Image Gallery View",
-        "description": "Browse all images on a webpage in an organized grid layout"
+        "title": "图片画廊视图",
+        "description": "以网格布局浏览网页中的所有图片"
       },
       "1": {
-        "title": "Image Details Panel",
-        "description": "View detailed information and controls for each image"
+        "title": "图片详情面板",
+        "description": "查看每张图片的详细信息和控制选项"
       },
       "2": {
-        "title": "Batch Download Interface",
-        "description": "Select and download multiple images simultaneously"
+        "title": "批量下载界面",
+        "description": "同时选择和下载多张图片"
       },
       "3": {
-        "title": "Filter and Sort Options",
-        "description": "Powerful tools to find exactly the images you need"
+        "title": "过滤和排序选项",
+        "description": "强大的工具，精准找到所需图片"
       }
     }
   },
