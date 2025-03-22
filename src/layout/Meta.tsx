@@ -22,6 +22,10 @@ const Meta = (props: IMetaProps) => {
           content="width=device-width,initial-scale=1"
           key="viewport"
         />
+        <meta
+          name="google-site-verification"
+          content="epAFOmbDZ5zS6-EuhFmcwLmyZM0cQ3BkpEYGsJHgUIE"
+        />
         <link
           rel="apple-touch-icon"
           href={`${router.basePath}/apple-touch-icon.png`}
