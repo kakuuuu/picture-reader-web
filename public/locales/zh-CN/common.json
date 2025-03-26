@@ -142,7 +142,8 @@
   "buttons": {
     "add_browser": "添加至浏览器",
     "add_chrome": "添加至Chrome",
-    "add_edge": "添加至Edge"
+    "add_edge": "添加至Edge",
+    "add_firefox": "添加至Firefox"
   },
   "supported_websites": {
     "title": "支持站点"

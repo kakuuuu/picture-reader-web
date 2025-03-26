@@ -142,7 +142,8 @@
   "buttons": {
     "add_browser": "Add to Browser",
     "add_chrome": "Add to Chrome",
-    "add_edge": "Add to Edge"
+    "add_edge": "Add to Edge",
+    "add_firefox": "Add to Firefox"
   },
   "supported_websites": {
     "title": "Supported Websites"

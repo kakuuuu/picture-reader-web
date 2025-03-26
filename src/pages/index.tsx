@@ -243,6 +243,16 @@ const App: React.FC = () => {
                     {t('buttons.add_edge')}
                   </button>
                 </a>
+                <a
+                  href="https://addons.mozilla.org/firefox/addon/picture-reader/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="!rounded-button flex items-center justify-center whitespace-nowrap border-2 border-indigo-100 bg-white px-8 py-4 text-lg font-medium text-indigo-700 shadow-lg transition-all duration-300 hover:bg-indigo-50 hover:shadow-xl">
+                    <i className="fab fa-edge mr-2"></i>
+                    {t('buttons.add_firefox')}
+                  </button>
+                </a>
               </div>
               <div className="flex items-center gap-8 pt-8">
                 <div className="flex items-center">
