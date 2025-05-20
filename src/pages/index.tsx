@@ -44,7 +44,7 @@ const App: React.FC = () => {
         },
         series: [
           {
-            data: [0, 30, 100, 200, 260],
+            data: [0, 30, 100, 200, 320],
             type: 'line',
             smooth: true,
             color: '#6366f1',
