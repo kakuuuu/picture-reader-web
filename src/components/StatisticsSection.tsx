@@ -16,9 +16,9 @@ const StatisticsSection: React.FC<{
           </div>
           <div className="z-10 grid grid-cols-2 gap-8 opacity-90">
             {[
-              { number: '500+', label: 'Active Users' },
+              { number: '800+', label: 'Active Users' },
               { number: '100+', label: 'Supported Websites' },
-              { number: '4.95/5', label: 'User Rating' },
+              { number: '5/5', label: 'User Rating' },
               { number: '1M+', label: 'Images Processed' },
             ].map((stat, index) => (
               <div
